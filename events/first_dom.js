@@ -10,11 +10,16 @@ add.addEventListener('click', function() {
   	list.innerHTML += '<li>item</li>';
   	ul.appendChild(li);
 })*/
-addAnother = function() {
-    var ul = document.getElementById("list");
+var addAnother = function() {
+    var ul = document.getElementById("Lista");
     var li = document.createElement("li");
-    var children = ul.children.length + 1
-    li.setAttribute("id", "element"+children)
-    li.appendChild(document.createTextNode("Element "+children));
+    var nextLiNumber = document.getElementsByTagName('li').length;
+    var textNode = document.createTextNode("item " + nextLiNumber);
+
+    li.appendChild(textNode);
     ul.appendChild(li)
 }
+
+var addButton = document.getElementById('addElem');
+
+addButton.addEventListener('click', addAnother)
