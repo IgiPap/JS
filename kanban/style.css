@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+body {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  background: #7c1010;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.ui-sortable {
+  min-height: 80px;
+  color: #4f0000;
+  font-weight: bold; 
+}
+
+.btn-delete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 25px;
+  height: 25px;
+  border: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: black;
+  cursor: pointer;
+}
+
+.board h1 {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.column-container {
+  display: inline-block;
+  width: 100%;
+}
+
+.column {
+  min-width: 300px;
+  min-height: 50vh;
+  float: left;
+  background-color: lightgrey;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  list-style: none;
+  position: relative;
+}
+
+.column-add-card {
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 5px 8px;
+  display: block;
+}
+
+.card {
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  padding: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-list {
+  list-style: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+.card-description {
+  margin: 2px 0;
+}
+
+.card-placeholder {
+  display: block;
+  height: 60px;
+  margin-bottom: 5px;
+  border: 2px solid lightgrey;
+  background-color: #912828;
+}
+
+.create-column{
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
