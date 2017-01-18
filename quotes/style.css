@@ -1,0 +1,39 @@
+body {
+	background-color: #991222;
+	text-align: center;
+    color: #ffffff;
+}
+
+h2 {
+    font-weight: bold;
+	font-style: italic;
+}
+
+.box {
+	margin-top: 10%;
+}
+
+.secondBox {
+	margin-top: 10%;
+}
+
+.trigger {
+	background-color: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 250px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+
+.btn {
+	background-color: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	border-radius: 5px;
+	width: 250px;
+	height: 35px;
+	margin-bottom: 10px;
+}
