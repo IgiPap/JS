@@ -22,16 +22,16 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
   border: 0;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.5);
   color: black;
   cursor: pointer;
 }
 
 .board h1 {
-  margin-left: 8px;
+  margin-left: 10px;
   text-align: center;
 }
 
@@ -45,7 +45,7 @@ body {
   min-height: 50vh;
   float: left;
   background-color: lightgrey;
-  margin-left: 8px;
+  margin-left: 10px;
   margin-bottom: 10px;
   list-style: none;
   position: relative;
@@ -62,14 +62,14 @@ body {
   display: block;
   height: 60px;
   margin-bottom: 5px;
-  padding: 4px;
+  padding: 5px;
   overflow: hidden;
   position: relative;
 }
 
 .card-list {
   list-style: none;
-  margin: 5px;
+  margin: 10px;
   padding: 0px;
 }
 
