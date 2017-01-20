@@ -1,0 +1,33 @@
+body {
+	background-color: lightgreen;
+	color: darkviolet;
+}
+
+div {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 25px;
+}
+
+button {
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #ffffff;
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+input {
+	color: darkviolet;
+	border: darkviolet;
+	width: 250px;
+	height: 30px;
+    text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin-left: -35px;
+}
