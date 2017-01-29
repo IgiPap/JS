@@ -4,8 +4,13 @@ function Telefon(marka, model, cena, kolor) {
 	this.cena = cena;
 	this.kolor = kolor;
 }
+
+Telefon.prototype.getWarrantyCost = function(price) {
+	return price * 0.1
+}
+
 Telefon.prototype.printInfo = function() {
-	console.log("Marka telefonu to " + this.marka + ", model " + this.model + ", kolor to " + this.kolor + ", a cena to " + this.cena + "PLN.");
+	console.log("Marka telefonu to " + this.marka + ", model " + this.model + ", kolor to " + this.kolor + ", a cena to " + this.cena + "PLN. Cena rozszerzenia gwarancji to " + this.getWarrantyCost(this.cena) + "PLN.");
 }
 
 var Siemens = new Telefon("Siemens", "C55", 1500, "biały");
